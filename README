@@ -1,3 +1,8 @@
+This project tries to distinguish between images of cat and dog faces. 
+Please find the full report in the repository. 
+The model trains on training images and then can be run on test images.
+The images must be of only the cats and dogs with minimal noise in the background with the faces centered. 
+
 This project is done in collaboration with 3 people combining Computer Vision and Big data group
 Authors:
 Vishal Manghnani (vjm1952@rit.edu)
@@ -6,9 +11,8 @@ Akshai Prabhu (ap40170@rit.edu)
 
 Steps to run the matlab files
 
-Keep the images in images/ folder with cats images in cats folder (images/cats) and dogs images in dogs folder(images/dogs)
-Keep the test images in test folder  images/test
-
-Run the train.m file to train the model and model is saved in model.mat
-Run the test.m file to test the model on test images.
-Result images are saved under resultimages folder.
+  1. Keep the images in images/ folder with cats images in cats folder (images/cats) and dogs images in dogs folder(images/dogs)
+  2. Keep the test images in test folder  images/test
+  3. Run the train.m file to train the model and model is saved in model.mat
+  4. Run the test.m file to test the model on test images.
+  5. Result images are saved under resultimages folder.
